@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.game {
+  margin: 0 auto 2.5rem;
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+}
+.game .color {
+  height: 12rem;
+  width: 20%;
+  max-width: 150px;
+  border: 1px solid;
+}
+#result {
+  font-weight: 700;
+}
+.play,
+.wallet,
+.score,
+#result {
+  margin-bottom: 2rem;
+}
